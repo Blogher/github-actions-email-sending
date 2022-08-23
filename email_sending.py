@@ -8,7 +8,7 @@ port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
 USER_EMAIL = os.environ.get('USER_EMAIL')
 USER_PASSWORD = os.environ.get('USER_PASSWORD')
-RECIPIENT_PASSWORD = os.environ.get('RECIPIENT_PASSWORD')
+RECIPIENT_EMAILS = os.environ.get('RECIPIENT_EMAILS')
 
 message = """\
         Subject: Hey there!
