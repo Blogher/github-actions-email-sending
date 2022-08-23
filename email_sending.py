@@ -12,8 +12,6 @@ USER_PASSWORD = os.environ.get('USER_PASSWORD')
 message = """\
         Subject: Welcome Bidemi
 
-        This is your first email sent with Python.
-
         Your welcome email is running 
     """
 
