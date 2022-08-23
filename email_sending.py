@@ -8,11 +8,16 @@ port = 465  # For SSL
 smtp_server = "smtp.gmail.com"
 USER_EMAIL = os.environ.get('USER_EMAIL')
 USER_PASSWORD = os.environ.get('USER_PASSWORD')
+RECIPIENT_PASSWORD = os.environ.get('RECIPIENT_PASSWORD')
 
 message = """\
-        Subject: Welcome Bidemi
+        Subject: Hey there!
 
-        Your welcome email is running 
+        This email was sent with Python, sorry for the troubles, I'm a newbie who's exploring the world of Python.
+
+        With kind regards,
+
+        Bidemi.
     """
 
 context = ssl.create_default_context()
